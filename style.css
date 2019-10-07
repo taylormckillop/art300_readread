@@ -5,6 +5,17 @@ body {
   background-size: cover;
   
 }
+
+.bigben{
+background-image:url(BigBen.png);
+background-size: contain;
+position: fixed;
+background-repeat: no-repeat;
+height: 120%;
+width: 170%;
+margin-left:40em ;
+}
+
 p{
     margin-top: 2em;
     margin-right:30em ;
@@ -64,11 +75,9 @@ h5{
 }
 
 .toc{
-    text-align: left;
+
     margin-top: 2em;
-    margin-right:0;
-    margin-left:0 ;
-    margin-bottom: ;
+    margin-bottom: 2em;
 }
 pre{
 display: none;
@@ -89,16 +98,16 @@ margin-bottom: 2em;;
     }
     h1{
         font-family: 'Pirata One', cursive;
-        font-size: 10em;
+        font-size: 9em;
         color: rgb(79, 132, 69);
         margin-top: 0%;
-        text-align: center;
+        text-align: left;
     
     }
     h4{
         font-family: 'Pirata One', cursive;
-        font-size: 2em;
-        text-align:center;
+        font-size: 1.5em;
+    
         margin-bottom: 0;
         margin-top: 0;
         color: white;
@@ -109,23 +118,41 @@ margin-bottom: 2em;;
         margin-left:10em ;
         margin-bottom: 2em;
     }
-    
+    .bigben{
+        background-image:url(BigBen.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        margin-left:15em ;
+        } 
 }
 
 /* TABLETS */
 @media only screen and (min-width: 800px) and (max-width: 1280px){
     p{
         margin-top: 2em;
-        margin-right:30em;
-        margin-left:0 ;
+        margin-right:20em;
+        margin-left:20em ;
         margin-bottom: 2em;;
         
 
     }
     p:nth-of-type(2n+1){
         margin-top: 2em;
-        margin-right:10em ;
-        margin-left:20em ;
+        margin-right:15em ;
+        margin-left:28em ;
         margin-bottom: 2em;
     }
+
+    .bigben{
+        background-image:url(BigBen.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 125%;
+        width: 130%;
+        margin-left:23em ;
+        }
 }

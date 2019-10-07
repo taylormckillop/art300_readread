@@ -1,0 +1,131 @@
+
+
+body {
+    background: url(stars.jpg) no-repeat center fixed;
+  background-size: cover;
+  
+}
+p{
+    margin-top: 2em;
+    margin-right:30em ;
+    margin-left:31em ;
+    margin-bottom: 2em;
+
+color:white;
+font-family: gimlet-text, serif;
+font-weight: 400;
+font-style: normal;
+line-height: 1.5em; 
+
+
+
+}
+
+
+
+h1{
+    font-family: 'Pirata One', cursive;
+    font-size: 12em;
+    color: rgb(79, 132, 69);
+    margin-top: 0%;
+
+}
+h1::first-letter {
+    font-size: 130%;
+  }
+
+
+h2{
+    font-family: origins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    
+}
+.chapter{
+    font-family: 'Pirata One', cursive;
+}
+h4{
+    font-family: 'Pirata One', cursive;
+    font-size: 3em;
+    text-align:left;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: white;
+}
+.subtitle{
+    margin-bottom: 5em;  
+}
+
+h5{
+    display: none;
+}
+
+.toc{
+    text-align: left;
+    margin-top: 2em;
+    margin-right:0;
+    margin-left:0 ;
+    margin-bottom: ;
+}
+pre{
+display: none;
+}
+br{
+    display: none;
+}
+
+/* SMART PHONE */
+@media only screen and (max-width: 800px){
+    p{
+text-align: left;
+margin-top: 2em;
+margin-right:10em;
+margin-left:0 ;
+margin-bottom: 2em;;
+    line-height: 1.5em;
+    }
+    h1{
+        font-family: 'Pirata One', cursive;
+        font-size: 10em;
+        color: rgb(79, 132, 69);
+        margin-top: 0%;
+        text-align: center;
+    
+    }
+    h4{
+        font-family: 'Pirata One', cursive;
+        font-size: 2em;
+        text-align:center;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: white;
+    }
+    p:nth-of-type(2n+1){
+        margin-top: 2em;
+        margin-right:2em ;
+        margin-left:10em ;
+        margin-bottom: 2em;
+    }
+    
+}
+
+/* TABLETS */
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+    p{
+        margin-top: 2em;
+        margin-right:30em;
+        margin-left:0 ;
+        margin-bottom: 2em;;
+        
+
+    }
+    p:nth-of-type(2n+1){
+        margin-top: 2em;
+        margin-right:10em ;
+        margin-left:20em ;
+        margin-bottom: 2em;
+    }
+}

@@ -43,6 +43,7 @@ h1{
     font-size: 15em;
     color: rgb(79, 132, 69);
     margin-top: 0%;
+    margin-left: 2%;
 
 }
 h1::first-letter {
